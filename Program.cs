@@ -18,7 +18,7 @@ if (volba == "S" || volba == "s")
 
     Bitmap image;
 
-    image = new Bitmap(@"C:\Users\fkomarek\tmp\intro_logo.jpg");
+    image = new Bitmap(@"C:\Users\fkomarek\tmp\fotka.bmp");
 
     int x;
     int y;
@@ -63,13 +63,13 @@ if (volba == "S" || volba == "s")
         }
     }
 
-    image.Save("output.jpg");
+    image.Save("output.bmp");
 }
 else if (volba == "D" || volba == "d")
 {
     Bitmap image;
 
-    image = new Bitmap("output.jpg");
+    image = new Bitmap("output.bmp");
 
     Color pixelColorLength = image.GetPixel(0, 0);
 
